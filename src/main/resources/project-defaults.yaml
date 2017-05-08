@@ -1,0 +1,5 @@
+swarm:
+  logging: INFO
+  zipkin:
+    name: greeting-service
+    url: http://zipkin-data-myproject.192.168.64.3.nip.io/api/v1/spans
